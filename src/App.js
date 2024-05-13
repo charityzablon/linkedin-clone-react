@@ -6,15 +6,14 @@ import Feed from './Feed';
 
 function App() {
   return (
-    <div className="app">
-       
+    <div className='aPp'>
+        
          {/* header*/}
           <Header/>
           {/*app body*/}
         <div className='app__body'>
         <Sidebar/>
-            {/*sidebar*/}
-            {/*feed*/}
+           <Feed />
             {/*Widgets*/}
 
         <Feed />
